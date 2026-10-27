@@ -1,0 +1,37 @@
+name: Lab 8 - Airline Satisfaction MLOps CI
+
+on:
+  push:
+    branches: [main, master]
+  pull_request:
+    branches: [main, master]
+  workflow_dispatch:
+
+jobs:
+  mlops-ci:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Validate required files
+        run: |
+          test -f train.csv
+          test -f test.csv
+          test -f config.yaml
+          test -f src/mlops/churn_prediction_pipeline.py
+
+      - name: Run MLOps pipeline
+        run: |
+          python src/mlops/churn_prediction_pipeline.py
