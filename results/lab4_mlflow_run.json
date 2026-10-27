@@ -1,0 +1,20 @@
+{
+  "experiment": "Airline Satisfaction - Lab 4",
+  "run_id": "2f2f885b5b9f46959e336e5aacb81a88",
+  "metrics": {
+    "accuracy": 0.869014965593571,
+    "precision": 0.8395849097394876,
+    "recall": 0.8625208217656858,
+    "f1": 0.8508983347940403,
+    "roc_auc": 0.9280758877918064
+  },
+  "params": {
+    "model": "LogisticRegression",
+    "max_iter": 2000,
+    "class_weight": "balanced",
+    "random_state": 42,
+    "test_size": 0.2,
+    "split_random_state": 42,
+    "target": "satisfaction"
+  }
+}

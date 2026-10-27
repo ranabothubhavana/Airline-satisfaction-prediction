@@ -1,0 +1,14 @@
+{
+  "experiment": "Airline Satisfaction - Lab 6",
+  "model_name": "Airline_Satisfaction_Production_Model",
+  "model_version": 2,
+  "run_id": "cae7372ad4994d7eb416470292e07727",
+  "target": "satisfaction",
+  "metrics": {
+    "accuracy": 0.869014965593571,
+    "precision": 0.8395849097394876,
+    "recall": 0.8625208217656858,
+    "f1": 0.8508983347940403,
+    "roc_auc": 0.9280758877918064
+  }
+}

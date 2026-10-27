@@ -1,0 +1,8 @@
+{
+  "model_name": "Airline_Satisfaction_Production_Model",
+  "challenger_version": "2",
+  "challenger_recall": 0.8625208217656858,
+  "previous_production_version": "1",
+  "previous_production_recall": 0.8625208217656858,
+  "promoted_to_production": true
+}

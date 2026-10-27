@@ -1,0 +1,26 @@
+[
+  {
+    "model_name": "Airline_Satisfaction_Production_Model",
+    "version": 1,
+    "stage": "Archived",
+    "run_id": "7604204950d94a5e94416c5ee7b23928",
+    "status": "READY",
+    "accuracy": 0.869014965593571,
+    "precision": 0.8395849097394876,
+    "recall": 0.8625208217656858,
+    "f1": 0.8508983347940403,
+    "roc_auc": 0.9280758877918064
+  },
+  {
+    "model_name": "Airline_Satisfaction_Production_Model",
+    "version": 2,
+    "stage": "Production",
+    "run_id": "cae7372ad4994d7eb416470292e07727",
+    "status": "READY",
+    "accuracy": 0.869014965593571,
+    "precision": 0.8395849097394876,
+    "recall": 0.8625208217656858,
+    "f1": 0.8508983347940403,
+    "roc_auc": 0.9280758877918064
+  }
+]

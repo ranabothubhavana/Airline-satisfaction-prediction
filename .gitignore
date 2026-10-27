@@ -1,0 +1,35 @@
+
+# Python virtual environment
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+
+# Local MLflow database and tracking files
+mlflow.db
+mlruns/
+
+# Python test and editor cache
+.pytest_cache/
+.vscode/
+
+
+# Generated model files
+models/*.joblib
+
+# Generated processed data and predictions
+data/processed/
+outputs/*.csv
+outputs/*.joblib
+outputs/*.npy
+
+# Local reports and results
+reports/*.json
+results/*.csv
+results/*.txt
+results/figures/
+
+# Generated artifacts
+artifacts/
+logs/*
+!logs/.gitkeep

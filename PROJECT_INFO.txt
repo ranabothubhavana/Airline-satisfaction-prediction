@@ -1,0 +1,6 @@
+train_shape: [103904, 25]
+test_shape: [25976, 25]
+target: satisfaction
+train_missing_total: 310
+train_duplicates: 0
+files: ['README.md', 'dataset/test.csv', 'dataset/train.csv', 'requirements.txt', 'src/eda.py', 'src/predict.py', 'src/train.py']

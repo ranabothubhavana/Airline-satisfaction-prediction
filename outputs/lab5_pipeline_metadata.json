@@ -1,0 +1,7 @@
+{
+  "input": "test.csv",
+  "rows_processed": 25976,
+  "transformed_feature_count": 27,
+  "model": "models/best_model.joblib",
+  "preprocessor": "artifacts/preprocessor.joblib"
+}
